@@ -1,0 +1,59 @@
+/* WordClubs.css */
+
+.animated-text-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .animated-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: orange; /* Color for the top layer */
+    position: relative;
+    overflow: hidden;
+    z-index: 1; /* Ensure it is above the sky blue text */
+  }
+  
+  .letter {
+    display: inline-block;
+    position: relative;
+    color: transparent; /* Hide the text color */
+  }
+  
+  .letter::before {
+    content: attr(data-letter);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 50%, blue 50%); /* Horizontal gradient */
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: wave 3s infinite linear;
+  }
+  
+  @keyframes wave {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 0%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  
+  .sky-blue-club {
+    position: absolute;
+    top: 0; /* Align directly beneath the animated text */
+    left: 0;
+    color: skyblue; /* Color for the bottom layer */
+    z-index: 0; /* Place it behind the animated text */
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  

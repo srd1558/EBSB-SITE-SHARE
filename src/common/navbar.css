@@ -1,0 +1,17 @@
+/* Make sure your CSS file is applied to the component */
+
+.navbar {
+    border-radius: 9999px; /* Full rounded corners */
+}
+
+.navbar ul {
+    border-radius: 9999px; /* Full rounded corners for navbar items */
+}
+
+.mobile-navbar {
+    border-radius: 0; /* Remove rounded corners for mobile menu */
+}
+
+.mobile-navbar .absolute {
+    border-radius: 0; /* Ensure no rounding on the mobile menu */
+}

@@ -1,0 +1,81 @@
+[
+	{
+	  "name": "Yosemite National Park",
+	  "date": "2024-08-04",
+	  "image": "https://t3.ftcdn.net/jpg/00/63/33/68/360_F_63336891_T42pSxVBJSQwAc4B4KxjaUswRcG3oqN7.jpg",
+	  "description": "A beautiful national park in California, USA."
+	
+	},
+	{
+	  "name": "Grand Canyon",
+	  "date": "2024-09-15",
+	  "image": "./imgg.jpg",
+	  "description": "A majestic canyon located in Arizona, USA."
+	 
+	},
+	{
+	  "name": "Mount Everest",
+	  "date": "2024-10-10",
+	  "image": "https://images.unsplash.com/photo-1506748686214e9df14f3e20d9",
+	  "description": "The highest peak in the world, located in the Himalayas."
+	  
+	},
+	{
+	  "name": "Great Barrier Reef",
+	  "date": "2024-11-01",
+	  "image": "https://images.unsplash.com/photo-1586587966952-f7e94a7c742b",
+	  "description": "The world’s largest coral reef system, located in Australia."
+	  
+	},
+	{
+	  "name": "Machu Picchu",
+	  "date": "2024-12-05",
+	  "image": "https://images.unsplash.com/photo-1595862481796-9057cb7c679d",
+	  "description": "An ancient Incan city located in the Andes mountains of Peru."
+	  
+	},
+	{
+		"name": "Eiffel Tower",
+		"date": "2024-12-20",
+		"image": "https://images.unsplash.com/photo-1518322692640-c53db3b0481a",
+		"description": "A famous wrought-iron lattice tower located in Paris, France."
+		
+	  },
+	  {
+		"name": "Sahara Desert",
+		"date": "2024-11-25",
+		"image": "https://images.unsplash.com/photo-1521653804136-cf2ac3e02a65",
+		"description": "The largest hot desert in the world, located in North Africa."
+		
+	  },
+	  {
+		"name": "Taj Mahal",
+		"date": "2024-09-30",
+		"image": "https://images.unsplash.com/photo-1560357631-d72b0646652a",
+		"description": "An iconic white marble mausoleum located in Agra, India."
+		
+	  },
+	  {
+		"name": "Santorini",
+		"date": "2024-08-15",
+		"image": "https://images.unsplash.com/photo-1566592515-43b6a97bfc0e",
+		"description": "A picturesque island in the Aegean Sea, known for its stunning sunsets. A picturesque island in the Aegean Sea, known for its stunning sunsets."
+		
+	  },
+	  {
+		"name": "Iguazu Falls",
+		"date": "2024-07-25",
+		"image": "https://images.unsplash.com/photo-1532910859741-b0933d0d9ef7",
+		"description": "A massive and breathtaking waterfall system located on the border of Argentina and Brazil. A massive and breathtaking waterfall system located on the border of Argentina and Brazil.",
+		"likes": 20
+	  },
+	  {
+		"name": "Victoria Falls",
+		"date": "2024-06-10",
+		"image": "https://images.unsplash.com/photo-1576423677102-1506a15ae8e2",
+		"description": "One of the largest and most famous waterfalls in Africa, located on the Zambezi River.",
+		"likes": 15
+	  }
+	
+  ]
+  

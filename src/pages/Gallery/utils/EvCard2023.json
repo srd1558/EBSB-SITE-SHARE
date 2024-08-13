@@ -1,0 +1,23 @@
+[
+	{
+	  "name": "europe",
+	  "date": "2024-08-04",
+	  "image": "https://t3.ftcdn.net/jpg/00/63/33/68/360_F_63336891_T42pSxVBJSQwAc4B4KxjaUswRcG3oqN7.jpg",
+	  "description": "A beautiful national park in California, USA."
+	
+	},
+	{
+	  "name": "asia",
+	  "date": "2024-09-15",
+	  "image": "./imgg.jpg",
+	  "description": "A majestic canyon located in Arizona, USA."
+	 
+	},
+	{
+	  "name": "africa",
+	  "date": "2024-10-10",
+	  "image": "https://images.unsplash.com/photo-1506748686214e9df14f3e20d9",
+	  "description": "The highest peak in the world, located in the Himalayas."
+	  
+	}
+]

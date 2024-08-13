@@ -1,0 +1,62 @@
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .content-wrapper {
+    padding-top: 50px; 
+  }
+  
+  
+  .mainNavBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    width: 100;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    /* backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%); */
+  }
+  .footer {
+    position: absolute;
+    /* top: 97; */
+    left: 0;
+    right: 0;
+    /* z-index: 50; */
+    
+    width: 100;
+    height: auto;
+    background-color: rgb(3, 23, 68)smoke;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    /* backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%); */
+  }
+  @keyframes typing {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+
+.typewriter {
+    display: inline-block; /* Ensures container fits text width */
+    overflow: hidden; /* Hide text that is not yet typed */
+    white-space: nowrap; /* Prevent text from wrapping */
+    border-right: 0.15em solid black; /* Create the blinking caret effect */
+    animation: typing 3s steps(40, end) infinite, blink-caret 0.50s step-end infinite;
+}
+
+.typewriter-text {
+    display: inline-block; /* Ensures text takes its content width */
+    white-space: nowrap; /* Prevent wrapping and ensure typewriter effect */
+}
